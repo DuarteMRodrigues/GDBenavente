@@ -2,7 +2,7 @@ package application;
 
 import controller.GestorReceita;
 import controller.GestorSocio;
-import model.MockupData;
+import misc.MockupData;
 import view.Menu;
 
 public class App {
