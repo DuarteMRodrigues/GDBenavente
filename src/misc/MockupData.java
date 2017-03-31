@@ -23,5 +23,17 @@ public class MockupData {
 		
 		index[0] = 0; index[1] = 3;
 		GestorSocio.addSocio("Duarte", "Azeitao", 925626455, index, 2);
+		
+		index[0] = 1; index[1] = 2;
+		GestorSocio.addSocio("Bogdan", "Sintra", 925426455, index, 2);
+		
+		index[0] = 5; index[1] = 9;
+		GestorSocio.addSocio("Filipe", "idk", 925626445, index, 2);
+		
+		index[0] = 4; index[1] = 6;
+		GestorSocio.addSocio("Bruno", "idk", 925626255, index, 2);
+		
+		index[0] = 7; index[1] = 8;
+		GestorSocio.addSocio("Arroz", "Monte Capa", 925622455, index, 2);
 	}
 }

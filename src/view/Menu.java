@@ -16,6 +16,7 @@ public class Menu {
 			System.out.println("2 - Procurar Socio");
 			System.out.println("3 - Socio que douo mais");
 			System.out.println("4 - Mes com mais rendimento");
+			System.out.println("5 - Dinheiro de cada tipo");
 			System.out.println("99 - Sair");
 			escolha = s.nextInt();
 			s.nextLine();
@@ -37,16 +38,20 @@ public class Menu {
 					or.mesMaisRendeu();
 					break;
 					
+				case 5:
+					or.tiposReceitas();
+					break;
+					
 				case 99:
 					System.out.println("\n\nAdeus");
-					
-					new Pausa();
 					break;
 					
 				default:
 					System.out.println("\n\nEscolha Invalida");
 					break;
 			}
+			
+			new Pausa();
 		}while(escolha != 99);
 	}
 }

@@ -67,9 +67,7 @@ public class OperacoesSocio {
 		int index = 0;
 		double dinheiro, max = 0;
 		
-		ArrayList<Socio> socio = new ArrayList<Socio>();
-		socio = GestorSocio.getSocio();
-		
+		ArrayList<Socio> socio = GestorSocio.getSocio();
 		
 		for(int i = 0; i < socio.size(); i++){
 			dinheiro = 0;

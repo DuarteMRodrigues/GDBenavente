@@ -33,5 +33,4 @@ public class GestorSocio {
 	public static ArrayList<Socio> getSocio(){
 		return alSocio;
 	}
-	
 }
